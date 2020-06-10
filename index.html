@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P.J. Hernandez</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="images/favicomatic/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/favicomatic/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/favicomatic/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/favicomatic/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="images/favicomatic/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="images/favicomatic/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="images/favicomatic/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="images/favicomatic/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="images/favicomatic/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="images/favicomatic/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="images/favicomatic/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="images/favicomatic/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="images/favicomatic/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="images/favicomatic/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="images/favicomatic/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="images/favicomatic/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="images/favicomatic/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="images/favicomatic/mstile-310x310.png" />
+    <script src="https://kit.fontawesome.com/d216b116d3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="banner" id="sec">x
+        <header>
+            <a href="#" class="logo">
+                <img class="logo-img" src="images/logo.png">
+            </a>
+            <div id="toggle" onclick="toggle()"></div>
+        </header>
+        <div class="content">
+            <h1>Welcome to my Space</h1>
+        </br>
+            <h2>P.J. Hernandez</h2>
+            <ul class="title-list">
+                <li> <h3 class="title-item">&#127891; USC Computer Science Grad</h3></li>
+                <li> <h3 class="title-item">&#128170; Fitness Enthusiast</h3></li>
+                <li> <h3 class="title-item">&#128205; Los Angeles, California</h3></li>
+            </ul>
+            <p>Full-stack software engineer with a deep passion for fitness and health. Like most, I’m constantly <i><b>learning, improving and executing</b></i> on all things tech and fitness.</p>
+            <a href="#">Resume</a>
+        </div>
+    </section>
+    <div id="navigation">
+        <ul>
+            <li><a href="#about-me"onclick="toggle()">About Me</a></li>
+            <li><a href="#blog-sec"onclick="toggle()">Blog</a></li>
+            <li><a href="https://github.com/pjhernandez18" target="_blank" onclick="toggle()">Github</a></li>
+        </ul>
+    </div>
+    <section class="about" id="about-me">
+        <div class="about-container">
+            <h2>Experience</h2>
+            <hr>
+            <ul class="content-list">
+                <li class="content-item">
+                    <div class="content-icon">
+                        <img src="images/cisco.png">
+                    </div>
+                    <div class="content-text">
+                        <h3>Cisco</h3>
+                        <p>Software Engineer, Enterprise Networking</p>
+                    </div> 
+                </li>
+                <li class="content-item">
+                    <div class="content-icon">
+                        <img src="images/tm.png">
+                    </div>
+                    <div class="content-text">
+                        <h3>Ticketmaster (Summer 2019)</h3>
+                        <p>Software Engineering Intern, Open Ticketing</p>
+                    </div> 
+
+                </li>
+                <li class="content-item">
+                    <div class="content-icon">
+                        <img src="images/lantrn.png">
+                    </div>
+                    <div class="content-text">
+                        <h3>Lantrn (Summer 2018)</h3>
+                        <p>Software Engineering Intern and Global Fellow at Hong Kong startup</p>
+                    </div> 
+                </li>
+                <li class="content-item">
+                    <div class="content-icon">
+                        <img src="images/usc.png">
+                    </div>
+                    <div class="content-text">
+                        <h3>University of Southern California</h3>
+                        <p>B.S. Computer Science, Class of 2020</p>
+                    </div> 
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="blog-header">
+        <h2>Follow my insights</h2>
+    </section>
+    <section class="blog" id="blog-sec">
+        <div class="split left" onmouseover="expandleft()" onmouseout="resize(this)">
+            <h2>Tech</h2>
+        </div>
+        <div class="split right" onmouseover="expandright()" onmouseout="resize(this)">
+            <h2>Fitness</h2>
+        </div>
+    </section>
+    <section class="footer">   
+       <div class="text">
+        <span><b>Built by P.J. Hernandez 🤠</b></span>
+        <br>
+        Tech/Fitness/Lifestyle
+        <br>
+        <br>
+        Get in touch:
+        <br>
+        <a href="mailto:pjhernandez018@gmail.com">pjhernandez018@gmail.com</a>
+       </div>
+    </section>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
